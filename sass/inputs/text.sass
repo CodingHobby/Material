@@ -1,0 +1,17 @@
+@import '../general/general'
+input[type="text"].material-input,textarea.material-input
+	width: 40%
+	border: 0
+	font-size: 20px
+	transition: all 0.3s ease-in-out
+	background: white no-repeat
+	background-image: linear-gradient(to bottom, $primary-color, $primary-color), linear-gradient(to bottom, silver, silver)
+	background-size: 0 2px, 100% 1px
+	background-position: 50% 100%, 50% 100%
+	resize: none
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1)
+	margin-right: 2px
+	
+	&:focus
+		background-size: 100% 2px, 100% 1px
+		outline: none

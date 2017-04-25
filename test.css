@@ -1,0 +1,26 @@
+#inputs {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#elements {
+	margin-top: 20px
+}
+
+#text,
+#textarea,
+#btn,
+#slider,
+#select,
+#switch,
+#navs {
+	margin-bottom: 50px;
+}
+
+#switch {
+	display: flex
+}
+
+#navs {
+	padding: 20px
+}
